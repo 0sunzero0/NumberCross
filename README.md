@@ -48,6 +48,9 @@
 No solution
 ```
 
+## 4. Logical Formula
+![Alt text](https://github.com/0sunzero0/NumberCross/blob/master/formula.png)
+
 ## 4. Guideline
 ```
    NumberCrossSource
