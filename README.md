@@ -7,7 +7,7 @@
     - the label of each row is the same as the sum of the numbers in the White squares of the column 
     - the number of a square label is greater than or equal to 1, and not greater than 9 
     - initially, no information on the coloring is given 
-    ![Alt text](https://github.com/R03160719/NumberCross/blob/master/number%20cross.png?raw=true)
+    ![Alt text](https://github.com/0sunzero0/NumberCross/blob/master/img.png)
 
 ## 2. Guideline
 ```
