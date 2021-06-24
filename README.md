@@ -51,7 +51,7 @@ No solution
 ## 4. Logical Formula
 ![Alt text](https://github.com/0sunzero0/NumberCross/blob/master/formula.png)
 
-## 4. Guideline
+## 5. Guideline
 ```
    NumberCrossSource
     -- homework1.c
@@ -66,7 +66,7 @@ No solution
 - You can make input file named "input". And If you run homework1.c then, the computer will input the input file named input and print the output without having to type the name of the input file.
 - If you want input another contents of input, then you modify contents of input file named "input".
 
-## 5. How to build
+## 6. How to build
 Make Makefile and type below command.
 ```
 exe:
@@ -77,7 +77,7 @@ clean:
 	rm hw1.out formula
 ```
 
-## 6. How to run
+## 7. How to run
 Command this instruction
 ```
 gcc -o hw1.out homework1.c
