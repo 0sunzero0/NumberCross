@@ -9,44 +9,7 @@
     - initially, no information on the coloring is given 
     ![Alt text](https://github.com/0sunzero0/NumberCross/blob/master/img.png)
 
-## 2. Guideline
-```
-   NumberCrossSource
-    -- homework1.c
-    -- input
-    -- Makefile
-```
-- There are files in NumberCrossSource directory.
-    - __homework1.c:__ Source code to solve NumberCross
-    - __input:__ Input file named input
-    - __Makefile:__ Makefile to build and run homework1.c
-    
-- You can make input file named "input". And If you run homework1.c then, the computer will input the input file named input and print the output without having to type the name of the input file.
-- If you want input another contents of input, then you modify contents of input file named "input".
-
-## 3. How to build
-Make Makefile and type below command.
-```
-exe:
-	gcc -o hw1.out homework1.c
-	./hw1.out
-
-clean:
-	rm hw1.out formula
-```
-
-## 4. How to run
-Command this instruction
-```
-gcc -o hw1.out homework1.c
-./hw1.out
-```
-or
-```
-make exe
-```
-
-## 5. Input
+## 2. Input
 -  input is given via the standard input 
 -  the first line consists of N tokens which are a sequence of the column labels 
 -  each of the following M lines has N + 1 tokens; first N tokens are a sequence of the square labels in the row, and the last label for the row label
@@ -64,7 +27,7 @@ make exe
 8 3 9 5 9 2 1 4 9 35
 ```
 
-## 6. Output
+## 3. Output
 - print the coloring of the grid to the standard output 
   - 1 : Black 
   - 0 : White
@@ -82,4 +45,41 @@ make exe
 - print “No solution” if there’s no solution 
 ```
 No solution
+```
+
+## 4. Guideline
+```
+   NumberCrossSource
+    -- homework1.c
+    -- input
+    -- Makefile
+```
+- There are files in NumberCrossSource directory.
+    - __homework1.c:__ Source code to solve NumberCross
+    - __input:__ Input file named input
+    - __Makefile:__ Makefile to build and run homework1.c
+    
+- You can make input file named "input". And If you run homework1.c then, the computer will input the input file named input and print the output without having to type the name of the input file.
+- If you want input another contents of input, then you modify contents of input file named "input".
+
+## 5. How to build
+Make Makefile and type below command.
+```
+exe:
+	gcc -o hw1.out homework1.c
+	./hw1.out
+
+clean:
+	rm hw1.out formula
+```
+
+## 6. How to run
+Command this instruction
+```
+gcc -o hw1.out homework1.c
+./hw1.out
+```
+or
+```
+make exe
 ```
