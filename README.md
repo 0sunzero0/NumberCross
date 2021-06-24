@@ -8,6 +8,7 @@
     - the number of a square label is greater than or equal to 1, and not greater than 9 
     - initially, no information on the coloring is given 
     ![Alt text](https://github.com/0sunzero0/NumberCross/blob/master/img.png)
+    
 
 ## 2. Input
 -  input is given via the standard input 
